@@ -268,6 +268,7 @@ void tv_sub(struct timeval *recvtime,struct timeval *sendtime)
     }
 }
 
+//ping
 void ping(char *address)
 {
     struct hostent *host;
